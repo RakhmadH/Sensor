@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_linear"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/sensor_list"
+        android:layout_width="wrap_content"
+        android:layout_height="381dp"
+        android:text="placeholder">
+
+    </TextView>
+
+    <TextView
+          android:id="@+id/label_light"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Light Sensor : %1$.2f"
+
+          >
+
+      </TextView>
+
+      <TextView
+          android:id="@+id/label_proximity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Proximity Sensor : %1$.2f"
+
+          >
+
+      </TextView>
+
+
+</LinearLayout>
