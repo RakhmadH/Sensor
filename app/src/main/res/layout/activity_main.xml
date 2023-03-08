@@ -36,6 +36,35 @@
           >
 
       </TextView>
+      <TextView
+          android:id="@+id/label_pressure"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Pressure Sensor : %1$.2f"
+
+            >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/label_ambient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ambient Sensor : %1$.2f"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/label_magnetic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Magnetic Sensor : %1$.2f"
+
+        >
+
+    </TextView>
 
 
 </LinearLayout>
